@@ -1,0 +1,11 @@
+.card {
+  background: linear-gradient(
+    130deg,
+    rgba(251, 251, 254, 0.6),
+    rgba(251, 251, 254, 0.2)
+  );
+  box-shadow: 2px 2px 1px rgba(251, 251, 254, 0.3),
+    -2px -2px 1px rgba(251, 251, 254, 0.2);
+  backdrop-filter: blur(10px);
+  border: none;
+}
