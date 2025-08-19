@@ -13,7 +13,7 @@ export default function Timer({ selected }) {
         headers: { "X-Api-Key": "QDmowASzgh3yRyF5Cjw4iQ==hVoYchL6YbF4nnMe" },
       };
       const response = await fetch(
-        `https://api.api-ninjas.com/v1/worldtime?lat=${latlng[0]}&lon=${latlng[1]}`,
+        `'https://timeapi.io/api/time/current/coordinate?latitude=${latlng[0]}&longitude=${latlng[1]}'`,
         requestOptions
       );
       if (!response.ok) {
