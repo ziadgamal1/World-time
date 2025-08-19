@@ -21,7 +21,7 @@ export default function Timer({ selected }) {
       }
       const data = await response.json();
       console.log(data);
-      const dateBase = new Date(data.datetime);
+      const dateBase = new Date(data.dateTime);
 
       const timeNew = dateBase.getTime();
       function getDynamicDate() {

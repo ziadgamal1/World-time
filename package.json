@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
+    "clocking-in": ".",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "gh-pages": "^6.3.0",
