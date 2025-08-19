@@ -1,6 +1,6 @@
 {
   "name": "clocking-in",
-  "private": true,
+  "homepage": "https://github.com/ziadgamal1/World-time-",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
