@@ -44,11 +44,13 @@ export default function FormNav({
           <Form.Label className="mb-2 h4">Country selection</Form.Label>
           <CustomSelect ref={inputRef}>
             <option>Select your country</option>
-            {countries.map((country) => (
-              <option key={country.name.common} value={country.name.common}>
-                {country.name.common}
-              </option>
-            ))}
+            {countries
+              .sort((a, b) => a.name.common.localeCompare(b.name.common))
+              .map((country) => (
+                <option key={country.name.common} value={country.name.common}>
+                  {country.name.common}
+                </option>
+              ))}
           </CustomSelect>
         </Form.Group>
 

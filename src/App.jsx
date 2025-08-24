@@ -15,7 +15,6 @@ function App() {
     const selectedCountry = countries.find(
       (country) => country.name.common === selectedCountryName
     );
-    console.log(selectedCountry);
     setSelectedCountry(selectedCountry);
   }
   return (
