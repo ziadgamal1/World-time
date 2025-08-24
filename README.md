@@ -8,7 +8,7 @@ Just select a country from the dropdown, hit **Submit**, and instantly see:
 - The **current local time** ⏰
 - A list of its **neighboring countries** 🌐 (with their times too!)
 
-This project uses the [API Ninjas Timezone API](https://api-ninjas.com/api/timezone) to fetch accurate time zone data.
+This project uses the [Timeapi.io](https://timeapi.io/) to fetch accurate time zone data.
 
 ---
 
@@ -25,7 +25,7 @@ This project uses the [API Ninjas Timezone API](https://api-ninjas.com/api/timez
 ## 🛠️ Tech Stack
 
 - **Frontend**: React + Tailwind CSS (or Bootstrap, depending on your setup)
-- **APIS**: [API Ninjas Timezone API](https://api-ninjas.com/api/timezone) [Rest countries](https://restcountries.com/)
+- **APIS**: [Timeapi.io](https://timeapi.io/) [Rest countries](https://restcountries.com/)
 - **Icons/Flags**: [REST Countries API](https://restcountries.com) (for country flags & metadata)
 
 ![showcasing the application when selecting russia](public/Screenshot%202025-08-19%20185651.png)
